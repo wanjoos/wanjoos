@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+/* 헤더 */
+.header {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.btn-back {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.btn-back:hover {
+  background: #5f4dd1;
+  transform: translateY(-2px);
+}
+
+/* 홈 화면 */
+.home-view {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.welcome-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.welcome-card h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-card p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.menu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.menu-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.menu-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.menu-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.menu-card p {
+  color: #666;
+}
+
+/* 학년 선택 */
+.grade-select-view,
+.room-select-view {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.grade-select-view h2,
+.room-select-view h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.grade-buttons,
+.room-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.grade-btn,
+.room-btn {
+  background: white;
+  border: none;
+  border-radius: 15px;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6c5ce7;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.grade-btn:hover,
+.room-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  background: #6c5ce7;
+  color: white;
+}
+
+.room-btn {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.room-name {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.room-badge {
+  display: inline-block;
+  background: #ffd700;
+  color: #333;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* 출석 체크 화면 */
+.attendance-view {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.attendance-header {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.attendance-header h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.attendance-controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.date-session {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.input-date,
+.input-session {
+  padding: 0.5rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-all-present,
+.btn-save {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-all-present {
+  background: #4CAF50;
+  color: white;
+}
+
+.btn-all-present:hover {
+  background: #45a049;
+}
+
+.btn-save {
+  background: #2196F3;
+  color: white;
+}
+
+.btn-save:hover {
+  background: #0b7dda;
+}
+
+.legend {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.legend-item {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.student-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  color: white;
+}
+
+.student-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.student-card:active {
+  transform: scale(0.98);
+}
+
+.student-number {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  opacity: 0.9;
+}
+
+.student-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.student-status {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  background: rgba(0,0,0,0.2);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.attendance-summary {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.summary-item {
+  font-size: 1rem;
+  color: #333;
+}
+
+.summary-item strong {
+  color: #6c5ce7;
+}
+
+/* 관리자 화면 */
+.admin-view {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.admin-view h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.admin-filters {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.filter-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-row label {
+  font-weight: 600;
+  color: #333;
+  min-width: 60px;
+}
+
+.filter-row input,
+.filter-row select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.admin-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-primary,
+.btn-success {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: #6c5ce7;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5f4dd1;
+}
+
+.btn-success {
+  background: #00b894;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #00a383;
+}
+
+.statistics-table {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.statistics-table h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.statistics-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.statistics-table th {
+  background: #6c5ce7;
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.statistics-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+.statistics-table tr:hover {
+  background: #f5f5f5;
+}
+
+.room-cell {
+  font-size: 0.85rem;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-present {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.stat-absent {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.stat-excused {
+  color: #FF9800;
+  font-weight: bold;
+}
+
+.stat-sick {
+  color: #9C27B0;
+  font-weight: bold;
+}
+
+.stat-rate {
+  font-weight: bold;
+  color: #333;
+}
+
+/* 로딩 */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loading-spinner {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6c5ce7;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.2rem;
+  }
+
+  .welcome-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .menu-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .students-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .student-card {
+    padding: 0.75rem;
+  }
+
+  .student-name {
+    font-size: 1rem;
+  }
+
+  .attendance-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .date-session {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .btn-all-present,
+  .btn-save {
+    width: 100%;
+  }
+
+  .admin-buttons {
+    flex-direction: column;
+  }
+
+  .btn-primary,
+  .btn-success {
+    width: 100%;
+  }
+
+  .statistics-table {
+    font-size: 0.85rem;
+  }
+
+  .statistics-table th,
+  .statistics-table td {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .students-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  }
+
+  .student-number {
+    font-size: 0.75rem;
+  }
+
+  .student-name {
+    font-size: 0.9rem;
+  }
+
+  .student-status {
+    font-size: 0.75rem;
+  }
+}
