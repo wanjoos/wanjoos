@@ -29,3 +29,5 @@ Thumbs.db
 *.tmp
 tmp/
 temp/
+test_api.js
+ksa-attendance-v2.0-old/

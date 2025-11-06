@@ -1,10 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
-// import axios from 'axios'; // 오프라인 모드에서는 사용 안 함
-import { offlineAxios as axios } from './offlineAdapter'; // localStorage 기반 adapter
+import axios from 'axios';
 import { format } from 'date-fns';
 import './App.css';
 
-const API_BASE = ''; // 오프라인 모드: API prefix 불필요
+const API_BASE = '/api';
 
 // 관리자 패널 컴포넌트
 function AdminPanel({ grades, currentDate: propCurrentDate, currentSession: propCurrentSession, supervisorName, onNavigateToAttendance }) {
