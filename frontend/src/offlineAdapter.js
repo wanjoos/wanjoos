@@ -83,7 +83,10 @@ class OfflineAdapter {
     const data = this.getData();
     if (!data.attendance) data.attendance = {};
 
-    attendanceData.forEach(record => {
+    // attendanceData가 배열인지 확인
+    const records = Array.isArray(attendanceData) ? attendanceData : [attendanceData];
+    
+    records.forEach(record => {
       const key = `${record.date}_${record.session}_${record.room}_${record.studentId}`;
       data.attendance[key] = {
         ...record,
@@ -92,7 +95,7 @@ class OfflineAdapter {
     });
 
     this.saveData(data);
-    return { data: { success: true, saved: attendanceData.length } };
+    return { status: 200, data: { success: true, saved: records.length } };
   }
 
   // ========================================
@@ -110,7 +113,57 @@ class OfflineAdapter {
     if (!data.preAbsence) data.preAbsence = {};
     data.preAbsence[date] = students;
     this.saveData(data);
-    return { data: { success: true, count: students.length } };
+    return { status: 200, data: { success: true, count: students.length } };
+  }
+
+  async preRegister(startDate, endDate, studentIds, reason = '공결') {
+    const data = this.getData();
+    if (!data.preAbsence) data.preAbsence = {};
+    
+    // 날짜 범위 생성
+    const dates = [];
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+      const dateStr = d.toISOString().split('T')[0];
+      dates.push(dateStr);
+    }
+    
+    let count = 0;
+    // 각 날짜에 대해 공결 등록
+    dates.forEach(date => {
+      if (!data.preAbsence[date]) {
+        data.preAbsence[date] = [];
+      }
+      
+      studentIds.forEach(studentId => {
+        // 학생 정보 찾기
+        const student = studentsData.find(s => s.id === studentId);
+        if (!student) {
+          console.warn(`학생을 찾을 수 없습니다: ${studentId}`);
+          return;
+        }
+        
+        // 중복 체크
+        const exists = data.preAbsence[date].some(a => a.studentId === studentId);
+        
+        if (!exists) {
+          data.preAbsence[date].push({
+            id: `pre_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+            date,
+            studentId,
+            studentName: student.name,
+            grade: student.grade,
+            reason,
+            timestamp: new Date().toISOString()
+          });
+          count++;
+        }
+      });
+    });
+    
+    this.saveData(data);
+    return { status: 200, data: { success: true, count, message: `${count}건의 공결이 사전등록되었습니다.` } };
   }
 
   async deletePreAbsence(ids) {
@@ -318,10 +371,10 @@ export const offlineAxios = {
     } else if (url.includes('/statistics')) {
       return await offlineAdapter.getStatistics(params);
     } else if (url.includes('/seating')) {
-      const roomId = url.split('/').pop();
+      const roomId = decodeURIComponent(url.split('/').pop());
       return await offlineAdapter.getSeatingChart(roomId);
     } else if (url.includes('/floor-plan')) {
-      const roomId = url.split('/').pop();
+      const roomId = decodeURIComponent(url.split('/').pop());
       return await offlineAdapter.getFloorPlan(roomId);
     }
 
@@ -331,7 +384,13 @@ export const offlineAxios = {
   post: async (url, data) => {
     if (url.includes('/attendance')) {
       return await offlineAdapter.saveAttendance(data);
-    } else if (url.includes('/pre-absence/register')) {
+    } else if (url.includes('/pre-register/bulk')) {
+      // Excel 업로드는 오프라인에서 지원하지 않음
+      throw new Error('Excel 업로드는 오프라인 모드에서 지원되지 않습니다. 수동 입력을 사용해주세요.');
+    } else if (url.includes('/pre-register')) {
+      return await offlineAdapter.preRegister(data.startDate, data.endDate, data.studentIds, data.reason);
+    } else if (url.includes('/pre-absence')) {
+      // /pre-absence/register 또는 /pre-absence 둘 다 처리
       return await offlineAdapter.savePreAbsence(data.date, data.students);
     }
 
