@@ -59,7 +59,14 @@ class OfflineAdapter {
       });
     }
 
-    return { data: students };
+    // v1.0 호환성을 위해 studyRoom과 room 필드 추가
+    const studentsWithCompatibility = students.map(s => ({
+      ...s,
+      studyRoom: s.location || s.studyRoom || s.room || '',
+      room: s.location || s.room || s.studyRoom || ''
+    }));
+
+    return { data: studentsWithCompatibility };
   }
 
   // ========================================
@@ -79,23 +86,38 @@ class OfflineAdapter {
     return { data: records };
   }
 
-  async saveAttendance(attendanceData) {
+  async saveAttendance(requestData) {
     const data = this.getData();
     if (!data.attendance) data.attendance = {};
 
-    // attendanceData가 배열인지 확인
-    const records = Array.isArray(attendanceData) ? attendanceData : [attendanceData];
+    // v1.0 형식: { date, session, room, attendanceData: { studentId: status, ... } }
+    const { date, session, room, attendanceData } = requestData;
     
-    records.forEach(record => {
-      const key = `${record.date}_${record.session}_${record.room}_${record.studentId}`;
+    if (!date || !session || !room || !attendanceData) {
+      throw new Error('필수 데이터가 누락되었습니다.');
+    }
+
+    // attendanceData는 객체 { studentId: status, ... }
+    let savedCount = 0;
+    Object.entries(attendanceData).forEach(([studentId, status]) => {
+      // 학생 정보 찾기
+      const student = studentsData.find(s => s.id === studentId);
+      
+      const key = `${date}_${session}_${room}_${studentId}`;
       data.attendance[key] = {
-        ...record,
+        date,
+        session,
+        room,
+        studentId,
+        studentName: student ? student.name : '',
+        status,
         timestamp: new Date().toISOString()
       };
+      savedCount++;
     });
 
     this.saveData(data);
-    return { status: 200, data: { success: true, saved: records.length } };
+    return { status: 200, data: { success: true, saved: savedCount, message: '출석 데이터가 저장되었습니다.' } };
   }
 
   // ========================================
