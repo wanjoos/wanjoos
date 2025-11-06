@@ -187,7 +187,7 @@ function AdminPanel({ grades, currentDate: propCurrentDate, currentSession: prop
       // 이름 또는 학번으로 검색
       const found = allStudents.find(student => 
         student.name === input || 
-        student.studentNumber === input ||
+        student.id === input ||
         student.name.includes(input) ||
         input.includes(student.name)
       );
