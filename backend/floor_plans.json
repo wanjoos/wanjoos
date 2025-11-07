@@ -1,0 +1,2003 @@
+{
+  "본관3층 도서관 우측 별실": {
+    "floorPlanImage": "/floor-plans/본관3층.png",
+    "grade": 3,
+    "seats": [
+      {
+        "id": "23-116",
+        "studentNumber": "23-116",
+        "name": "천우정",
+        "x": 15,
+        "y": 28,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-093",
+        "studentNumber": "23-093",
+        "name": "이현승",
+        "x": 15,
+        "y": 40,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-128",
+        "studentNumber": "23-128",
+        "name": "홍예찬",
+        "x": 15,
+        "y": 52,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-040",
+        "studentNumber": "23-040",
+        "name": "김현석",
+        "x": 15,
+        "y": 64,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-071",
+        "studentNumber": "23-071",
+        "name": "양채은",
+        "x": 15,
+        "y": 76,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "22-204",
+        "studentNumber": "22-204",
+        "name": "Zaya",
+        "x": 15,
+        "y": 88,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-080",
+        "studentNumber": "23-080",
+        "name": "이건주",
+        "x": 42,
+        "y": 28,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-112",
+        "studentNumber": "23-112",
+        "name": "조현서",
+        "x": 66,
+        "y": 28,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-109",
+        "studentNumber": "23-109",
+        "name": "조원준",
+        "x": 42,
+        "y": 40,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-058",
+        "studentNumber": "23-058",
+        "name": "박찬후",
+        "x": 42,
+        "y": 58,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "22-111",
+        "studentNumber": "22-111",
+        "name": "조건우",
+        "x": 66,
+        "y": 58,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-061",
+        "studentNumber": "23-061",
+        "name": "서영준",
+        "x": 42,
+        "y": 70,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-009",
+        "studentNumber": "23-009",
+        "name": "권호준",
+        "x": 66,
+        "y": 70,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-208",
+        "studentNumber": "23-208",
+        "name": "Kanbubu",
+        "x": 42,
+        "y": 82,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-075",
+        "studentNumber": "23-075",
+        "name": "유영상",
+        "x": 66,
+        "y": 82,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "22-065",
+        "studentNumber": "22-065",
+        "name": "신준섭",
+        "x": 42,
+        "y": 94,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-039",
+        "studentNumber": "23-039",
+        "name": "김한준",
+        "x": 66,
+        "y": 94,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "23-101",
+        "studentNumber": "23-101",
+        "name": "정단열",
+        "x": 15,
+        "y": 100,
+        "width": 18,
+        "height": 8
+      }
+    ]
+  },
+  "창조관 3층 면학실": {
+    "floorPlanImage": "/floor-plans/창조관3층.png",
+    "grade": 3,
+    "seats": [
+      {
+        "id": "23-062",
+        "studentNumber": "23-062",
+        "name": "서우찬",
+        "x": 8,
+        "y": 15,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-206",
+        "studentNumber": "23-206",
+        "name": "Yelena",
+        "x": 23.3,
+        "y": 15,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-063",
+        "studentNumber": "23-063",
+        "name": "손민성",
+        "x": 38.6,
+        "y": 15,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-077",
+        "studentNumber": "23-077",
+        "name": "윤승민",
+        "x": 53.900000000000006,
+        "y": 15,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-089",
+        "studentNumber": "23-089",
+        "name": "이준민",
+        "x": 69.2,
+        "y": 15,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-125",
+        "studentNumber": "23-125",
+        "name": "한승재",
+        "x": 84.5,
+        "y": 15,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-070",
+        "studentNumber": "23-070",
+        "name": "양정욱",
+        "x": 8,
+        "y": 23.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-041",
+        "studentNumber": "23-041",
+        "name": "김형찬",
+        "x": 23.3,
+        "y": 23.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-050",
+        "studentNumber": "23-050",
+        "name": "박서진",
+        "x": 38.6,
+        "y": 23.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-104",
+        "studentNumber": "23-104",
+        "name": "정성훈",
+        "x": 53.900000000000006,
+        "y": 23.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-032",
+        "studentNumber": "23-032",
+        "name": "김지윤",
+        "x": 69.2,
+        "y": 23.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-127",
+        "studentNumber": "23-127",
+        "name": "홍세원",
+        "x": 84.5,
+        "y": 23.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-052",
+        "studentNumber": "23-052",
+        "name": "박성빈",
+        "x": 8,
+        "y": 32,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-020",
+        "studentNumber": "23-020",
+        "name": "김상현",
+        "x": 23.3,
+        "y": 32,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-068",
+        "studentNumber": "23-068",
+        "name": "안서현",
+        "x": 38.6,
+        "y": 32,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-121",
+        "studentNumber": "23-121",
+        "name": "최준혁",
+        "x": 53.900000000000006,
+        "y": 32,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-043",
+        "studentNumber": "23-043",
+        "name": "남윤우",
+        "x": 69.2,
+        "y": 32,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-042",
+        "studentNumber": "23-042",
+        "name": "남동건",
+        "x": 84.5,
+        "y": 32,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-024",
+        "studentNumber": "23-024",
+        "name": "김윤지",
+        "x": 8,
+        "y": 40.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-055",
+        "studentNumber": "23-055",
+        "name": "박정현",
+        "x": 23.3,
+        "y": 40.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-047",
+        "studentNumber": "23-047",
+        "name": "문이현",
+        "x": 38.6,
+        "y": 40.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-005",
+        "studentNumber": "23-005",
+        "name": "구보민",
+        "x": 53.900000000000006,
+        "y": 40.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-098",
+        "studentNumber": "23-098",
+        "name": "전윤서",
+        "x": 69.2,
+        "y": 40.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "22-001",
+        "studentNumber": "22-001",
+        "name": "강주환",
+        "x": 84.5,
+        "y": 40.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-110",
+        "studentNumber": "23-110",
+        "name": "조준연",
+        "x": 8,
+        "y": 49,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-036",
+        "studentNumber": "23-036",
+        "name": "김초은",
+        "x": 23.3,
+        "y": 49,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-105",
+        "studentNumber": "23-105",
+        "name": "정지영",
+        "x": 38.6,
+        "y": 49,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-102",
+        "studentNumber": "23-102",
+        "name": "정민규",
+        "x": 53.900000000000006,
+        "y": 49,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-045",
+        "studentNumber": "23-045",
+        "name": "명찬웅",
+        "x": 69.2,
+        "y": 49,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-054",
+        "studentNumber": "23-054",
+        "name": "박수민",
+        "x": 84.5,
+        "y": 49,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-129",
+        "studentNumber": "23-129",
+        "name": "홍정우",
+        "x": 8,
+        "y": 57.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "22-090",
+        "studentNumber": "22-090",
+        "name": "이제황",
+        "x": 23.3,
+        "y": 57.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-117",
+        "studentNumber": "23-117",
+        "name": "최시원",
+        "x": 38.6,
+        "y": 57.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-084",
+        "studentNumber": "23-084",
+        "name": "이성현",
+        "x": 53.900000000000006,
+        "y": 57.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-115",
+        "studentNumber": "23-115",
+        "name": "차주원",
+        "x": 69.2,
+        "y": 57.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-107",
+        "studentNumber": "23-107",
+        "name": "조서현",
+        "x": 84.5,
+        "y": 57.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-029",
+        "studentNumber": "23-029",
+        "name": "김준성",
+        "x": 8,
+        "y": 66,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-130",
+        "studentNumber": "23-130",
+        "name": "황지훈",
+        "x": 23.3,
+        "y": 66,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-046",
+        "studentNumber": "23-046",
+        "name": "문가온",
+        "x": 38.6,
+        "y": 66,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "22-117",
+        "studentNumber": "22-117",
+        "name": "지홍근",
+        "x": 53.900000000000006,
+        "y": 66,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-003",
+        "studentNumber": "23-003",
+        "name": "강진황",
+        "x": 69.2,
+        "y": 66,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-014",
+        "studentNumber": "23-014",
+        "name": "김동운",
+        "x": 84.5,
+        "y": 66,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-016",
+        "studentNumber": "23-016",
+        "name": "김래환",
+        "x": 8,
+        "y": 74.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-053",
+        "studentNumber": "23-053",
+        "name": "박세윤",
+        "x": 23.3,
+        "y": 74.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-119",
+        "studentNumber": "23-119",
+        "name": "최원",
+        "x": 38.6,
+        "y": 74.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-048",
+        "studentNumber": "23-048",
+        "name": "박경훈",
+        "x": 53.900000000000006,
+        "y": 74.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-064",
+        "studentNumber": "23-064",
+        "name": "송범서",
+        "x": 69.2,
+        "y": 74.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-004",
+        "studentNumber": "23-004",
+        "name": "강태윤",
+        "x": 84.5,
+        "y": 74.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-073",
+        "studentNumber": "23-073",
+        "name": "오유찬",
+        "x": 8,
+        "y": 83,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "22-063",
+        "studentNumber": "22-063",
+        "name": "신경진",
+        "x": 23.3,
+        "y": 83,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-111",
+        "studentNumber": "23-111",
+        "name": "조채윤",
+        "x": 38.6,
+        "y": 83,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-002",
+        "studentNumber": "23-002",
+        "name": "강준규",
+        "x": 53.900000000000006,
+        "y": 83,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-012",
+        "studentNumber": "23-012",
+        "name": "김나희",
+        "x": 69.2,
+        "y": 83,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-001",
+        "studentNumber": "23-001",
+        "name": "강대연",
+        "x": 84.5,
+        "y": 83,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "22-078",
+        "studentNumber": "22-078",
+        "name": "윤하연",
+        "x": 8,
+        "y": 91.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-021",
+        "studentNumber": "23-021",
+        "name": "김솔휘",
+        "x": 23.3,
+        "y": 91.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-065",
+        "studentNumber": "23-065",
+        "name": "신정원",
+        "x": 38.6,
+        "y": 91.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-096",
+        "studentNumber": "23-096",
+        "name": "장슬기",
+        "x": 53.900000000000006,
+        "y": 91.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-030",
+        "studentNumber": "23-030",
+        "name": "김준오",
+        "x": 69.2,
+        "y": 91.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-025",
+        "studentNumber": "23-025",
+        "name": "김은성",
+        "x": 84.5,
+        "y": 91.5,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-113",
+        "studentNumber": "23-113",
+        "name": "주보경",
+        "x": 8,
+        "y": 100,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-078",
+        "studentNumber": "23-078",
+        "name": "윤준서",
+        "x": 23.3,
+        "y": 100,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-060",
+        "studentNumber": "23-060",
+        "name": "백서진",
+        "x": 38.6,
+        "y": 100,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "23-008",
+        "studentNumber": "23-008",
+        "name": "권율언",
+        "x": 53.900000000000006,
+        "y": 100,
+        "width": 14,
+        "height": 7.5
+      },
+      {
+        "id": "22-083",
+        "studentNumber": "22-083",
+        "name": "이루진",
+        "x": 69.2,
+        "y": 100,
+        "width": 14,
+        "height": 7.5
+      }
+    ]
+  },
+  "창조관 8층 면학실 A": {
+    "floorPlanImage": "/floor-plans/창조관8층A.png",
+    "grade": 2,
+    "seats": [
+      {
+        "id": "24-006",
+        "studentNumber": "24-006",
+        "name": "고태경",
+        "x": 8,
+        "y": 12,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-015",
+        "studentNumber": "24-015",
+        "name": "김시현",
+        "x": 22,
+        "y": 12,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-030",
+        "studentNumber": "24-030",
+        "name": "나형준",
+        "x": 8,
+        "y": 21,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-052",
+        "studentNumber": "24-052",
+        "name": "안찬회",
+        "x": 22,
+        "y": 21,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-056",
+        "studentNumber": "24-056",
+        "name": "오찬솔",
+        "x": 8,
+        "y": 30,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-066",
+        "studentNumber": "24-066",
+        "name": "이승언",
+        "x": 22,
+        "y": 30,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-078",
+        "studentNumber": "24-078",
+        "name": "이지서",
+        "x": 35,
+        "y": 12,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-084",
+        "studentNumber": "24-084",
+        "name": "장재혁",
+        "x": 49,
+        "y": 12,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-091",
+        "studentNumber": "24-091",
+        "name": "정재욱",
+        "x": 63,
+        "y": 12,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-122",
+        "studentNumber": "24-122",
+        "name": "홍제영",
+        "x": 77,
+        "y": 12,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-123",
+        "studentNumber": "24-123",
+        "name": "홍준수",
+        "x": 35,
+        "y": 21,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-010",
+        "studentNumber": "24-010",
+        "name": "권민혁",
+        "x": 49,
+        "y": 21,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-016",
+        "studentNumber": "24-016",
+        "name": "김영신",
+        "x": 63,
+        "y": 21,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-027",
+        "studentNumber": "24-027",
+        "name": "김하람",
+        "x": 77,
+        "y": 21,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-040",
+        "studentNumber": "24-040",
+        "name": "박채아",
+        "x": 35,
+        "y": 30,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-053",
+        "studentNumber": "24-053",
+        "name": "안해정",
+        "x": 49,
+        "y": 30,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-071",
+        "studentNumber": "24-071",
+        "name": "이우준",
+        "x": 63,
+        "y": 30,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-076",
+        "studentNumber": "24-076",
+        "name": "이주은",
+        "x": 77,
+        "y": 30,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-079",
+        "studentNumber": "24-079",
+        "name": "이한울",
+        "x": 8,
+        "y": 40,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-082",
+        "studentNumber": "24-082",
+        "name": "장성원",
+        "x": 22,
+        "y": 40,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-093",
+        "studentNumber": "24-093",
+        "name": "조승리",
+        "x": 8,
+        "y": 49,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-105",
+        "studentNumber": "24-105",
+        "name": "최성도",
+        "x": 22,
+        "y": 49,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "23-026",
+        "studentNumber": "23-026",
+        "name": "김정우",
+        "x": 8,
+        "y": 58,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-020",
+        "studentNumber": "24-020",
+        "name": "김정찬",
+        "x": 22,
+        "y": 58,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-045",
+        "studentNumber": "24-045",
+        "name": "서승재",
+        "x": 35,
+        "y": 40,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-061",
+        "studentNumber": "24-061",
+        "name": "윤휘서",
+        "x": 49,
+        "y": 40,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-064",
+        "studentNumber": "24-064",
+        "name": "이소민",
+        "x": 63,
+        "y": 40,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-070",
+        "studentNumber": "24-070",
+        "name": "이용준",
+        "x": 77,
+        "y": 40,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-088",
+        "studentNumber": "24-088",
+        "name": "정민기",
+        "x": 35,
+        "y": 49,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-090",
+        "studentNumber": "24-090",
+        "name": "정윤교",
+        "x": 49,
+        "y": 49,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-098",
+        "studentNumber": "24-098",
+        "name": "조한선",
+        "x": 63,
+        "y": 49,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-099",
+        "studentNumber": "24-099",
+        "name": "조현승",
+        "x": 77,
+        "y": 49,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-100",
+        "studentNumber": "24-100",
+        "name": "조현우",
+        "x": 35,
+        "y": 58,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-103",
+        "studentNumber": "24-103",
+        "name": "차태민",
+        "x": 49,
+        "y": 58,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-037",
+        "studentNumber": "24-037",
+        "name": "박윤찬",
+        "x": 63,
+        "y": 58,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-047",
+        "studentNumber": "24-047",
+        "name": "성소미",
+        "x": 77,
+        "y": 58,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-051",
+        "studentNumber": "24-051",
+        "name": "안지윤",
+        "x": 8,
+        "y": 68,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-059",
+        "studentNumber": "24-059",
+        "name": "윤장원",
+        "x": 22,
+        "y": 68,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-062",
+        "studentNumber": "24-062",
+        "name": "이강일",
+        "x": 8,
+        "y": 77,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-072",
+        "studentNumber": "24-072",
+        "name": "이유민",
+        "x": 22,
+        "y": 77,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-073",
+        "studentNumber": "24-073",
+        "name": "이은성",
+        "x": 8,
+        "y": 86,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-080",
+        "studentNumber": "24-080",
+        "name": "이현민",
+        "x": 22,
+        "y": 86,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-087",
+        "studentNumber": "24-087",
+        "name": "전현서",
+        "x": 35,
+        "y": 68,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-107",
+        "studentNumber": "24-107",
+        "name": "최우진",
+        "x": 49,
+        "y": 68,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-117",
+        "studentNumber": "24-117",
+        "name": "하현민",
+        "x": 63,
+        "y": 68,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-118",
+        "studentNumber": "24-118",
+        "name": "한성민",
+        "x": 77,
+        "y": 68,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "23-023",
+        "studentNumber": "23-023",
+        "name": "김채유",
+        "x": 35,
+        "y": 77,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-002",
+        "studentNumber": "24-002",
+        "name": "강우진",
+        "x": 49,
+        "y": 77,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-004",
+        "studentNumber": "24-004",
+        "name": "강효신",
+        "x": 63,
+        "y": 77,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-019",
+        "studentNumber": "24-019",
+        "name": "김인우",
+        "x": 77,
+        "y": 77,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-028",
+        "studentNumber": "24-028",
+        "name": "김하연",
+        "x": 35,
+        "y": 86,
+        "width": 13,
+        "height": 8
+      },
+      {
+        "id": "24-043",
+        "studentNumber": "24-043",
+        "name": "박현근",
+        "x": 49,
+        "y": 86,
+        "width": 13,
+        "height": 8
+      }
+    ]
+  },
+  "창조관 8층 면학실 B": {
+    "floorPlanImage": "/floor-plans/창조관8층B.png",
+    "grade": 2,
+    "seats": [
+      {
+        "id": "24-057",
+        "studentNumber": "24-057",
+        "name": "우동윤",
+        "x": 10,
+        "y": 10,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-094",
+        "studentNumber": "24-094",
+        "name": "조예환",
+        "x": 30,
+        "y": 10,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-095",
+        "studentNumber": "24-095",
+        "name": "조용준",
+        "x": 50,
+        "y": 10,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-112",
+        "studentNumber": "24-112",
+        "name": "최혁재",
+        "x": 70,
+        "y": 10,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-119",
+        "studentNumber": "24-119",
+        "name": "함주원",
+        "x": 10,
+        "y": 20,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-018",
+        "studentNumber": "24-018",
+        "name": "김율",
+        "x": 30,
+        "y": 20,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-050",
+        "studentNumber": "24-050",
+        "name": "심형섭",
+        "x": 50,
+        "y": 20,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-060",
+        "studentNumber": "24-060",
+        "name": "윤지훈",
+        "x": 70,
+        "y": 20,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-069",
+        "studentNumber": "24-069",
+        "name": "이용재",
+        "x": 10,
+        "y": 30,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-085",
+        "studentNumber": "24-085",
+        "name": "장희운",
+        "x": 30,
+        "y": 30,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-086",
+        "studentNumber": "24-086",
+        "name": "전수빈",
+        "x": 50,
+        "y": 30,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-106",
+        "studentNumber": "24-106",
+        "name": "최승우",
+        "x": 70,
+        "y": 30,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-108",
+        "studentNumber": "24-108",
+        "name": "최윤아",
+        "x": 10,
+        "y": 40,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-114",
+        "studentNumber": "24-114",
+        "name": "추성민",
+        "x": 30,
+        "y": 40,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-115",
+        "studentNumber": "24-115",
+        "name": "하석준",
+        "x": 50,
+        "y": 40,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-121",
+        "studentNumber": "24-121",
+        "name": "홍석주",
+        "x": 70,
+        "y": 40,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-001",
+        "studentNumber": "24-001",
+        "name": "강동우",
+        "x": 10,
+        "y": 50,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-005",
+        "studentNumber": "24-005",
+        "name": "고예서",
+        "x": 30,
+        "y": 50,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-008",
+        "studentNumber": "24-008",
+        "name": "공유경",
+        "x": 50,
+        "y": 50,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-013",
+        "studentNumber": "24-013",
+        "name": "김서현",
+        "x": 70,
+        "y": 50,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-022",
+        "studentNumber": "24-022",
+        "name": "김종휘",
+        "x": 10,
+        "y": 60,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-031",
+        "studentNumber": "24-031",
+        "name": "노현우",
+        "x": 30,
+        "y": 60,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-034",
+        "studentNumber": "24-034",
+        "name": "민서준",
+        "x": 50,
+        "y": 60,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-035",
+        "studentNumber": "24-035",
+        "name": "박도훈",
+        "x": 70,
+        "y": 60,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "id": "24-054",
+        "studentNumber": "24-054",
+        "name": "양성진",
+        "x": 10,
+        "y": 70,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-065",
+        "studentNumber": "24-065",
+        "name": "이수진",
+        "x": 30,
+        "y": 70,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-075",
+        "studentNumber": "24-075",
+        "name": "이정진",
+        "x": 50,
+        "y": 70,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-110",
+        "studentNumber": "24-110",
+        "name": "최재호",
+        "x": 70,
+        "y": 70,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "23-099",
+        "studentNumber": "23-099",
+        "name": "전재완",
+        "x": 10,
+        "y": 77,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-017",
+        "studentNumber": "24-017",
+        "name": "김유현",
+        "x": 30,
+        "y": 77,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-029",
+        "studentNumber": "24-029",
+        "name": "나예찬",
+        "x": 50,
+        "y": 77,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-046",
+        "studentNumber": "24-046",
+        "name": "서준우",
+        "x": 70,
+        "y": 77,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-048",
+        "studentNumber": "24-048",
+        "name": "신재하",
+        "x": 10,
+        "y": 84,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-077",
+        "studentNumber": "24-077",
+        "name": "이주호",
+        "x": 30,
+        "y": 84,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-083",
+        "studentNumber": "24-083",
+        "name": "장연아",
+        "x": 50,
+        "y": 84,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-092",
+        "studentNumber": "24-092",
+        "name": "조병준",
+        "x": 70,
+        "y": 84,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-097",
+        "studentNumber": "24-097",
+        "name": "조은찬",
+        "x": 10,
+        "y": 91,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-116",
+        "studentNumber": "24-116",
+        "name": "하승빈",
+        "x": 30,
+        "y": 91,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-007",
+        "studentNumber": "24-007",
+        "name": "공도윤",
+        "x": 50,
+        "y": 91,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "id": "24-012",
+        "studentNumber": "24-012",
+        "name": "김민서",
+        "x": 70,
+        "y": 91,
+        "width": 18,
+        "height": 6
+      }
+    ]
+  },
+  "형설관 3층,4층 EOZ": {
+    "floorPlanImage": "/floor-plans/형설관3층4층.png",
+    "grade": 3,
+    "seats": [
+      {
+        "id": "23-038",
+        "studentNumber": "23-038",
+        "name": "김태홍",
+        "x": 8,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-011",
+        "studentNumber": "23-011",
+        "name": "김규민",
+        "x": 8,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-069",
+        "studentNumber": "23-069",
+        "name": "안유현",
+        "x": 15,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-049",
+        "studentNumber": "23-049",
+        "name": "박상원",
+        "x": 15,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "22-202",
+        "studentNumber": "22-202",
+        "name": "Luciana",
+        "x": 22,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-033",
+        "studentNumber": "23-033",
+        "name": "김지훈",
+        "x": 22,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-202",
+        "studentNumber": "23-202",
+        "name": "Alejandra",
+        "x": 29,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-076",
+        "studentNumber": "23-076",
+        "name": "윤선재",
+        "x": 29,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-035",
+        "studentNumber": "23-035",
+        "name": "김창하",
+        "x": 36,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-015",
+        "studentNumber": "23-015",
+        "name": "김동준",
+        "x": 36,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-092",
+        "studentNumber": "23-092",
+        "name": "이채영",
+        "x": 43,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-122",
+        "studentNumber": "23-122",
+        "name": "하석영",
+        "x": 43,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-037",
+        "studentNumber": "23-037",
+        "name": "김태이",
+        "x": 50,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-081",
+        "studentNumber": "23-081",
+        "name": "이동현",
+        "x": 50,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-126",
+        "studentNumber": "23-126",
+        "name": "홍성원",
+        "x": 57,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-051",
+        "studentNumber": "23-051",
+        "name": "박서현",
+        "x": 57,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-100",
+        "studentNumber": "23-100",
+        "name": "전진욱",
+        "x": 64,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-079",
+        "studentNumber": "23-079",
+        "name": "이가현",
+        "x": 64,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-108",
+        "studentNumber": "23-108",
+        "name": "조예서",
+        "x": 71,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-017",
+        "studentNumber": "23-017",
+        "name": "김민겸",
+        "x": 71,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-027",
+        "studentNumber": "23-027",
+        "name": "김정환",
+        "x": 78,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-090",
+        "studentNumber": "23-090",
+        "name": "이지안",
+        "x": 78,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-094",
+        "studentNumber": "23-094",
+        "name": "임재혁",
+        "x": 85,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-044",
+        "studentNumber": "23-044",
+        "name": "류승완",
+        "x": 85,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-083",
+        "studentNumber": "23-083",
+        "name": "이서은",
+        "x": 92,
+        "y": 15,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-059",
+        "studentNumber": "23-059",
+        "name": "배준석",
+        "x": 92,
+        "y": 27,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-120",
+        "studentNumber": "23-120",
+        "name": "최재호",
+        "x": 8,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-010",
+        "studentNumber": "23-010",
+        "name": "김건우",
+        "x": 8,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-067",
+        "studentNumber": "23-067",
+        "name": "신현상",
+        "x": 15,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "22-047",
+        "studentNumber": "22-047",
+        "name": "박서진",
+        "x": 15,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-088",
+        "studentNumber": "23-088",
+        "name": "이재헌",
+        "x": 22,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-091",
+        "studentNumber": "23-091",
+        "name": "이지윤",
+        "x": 22,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-022",
+        "studentNumber": "23-022",
+        "name": "김수안",
+        "x": 29,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "22-124",
+        "studentNumber": "22-124",
+        "name": "최지후",
+        "x": 29,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-123",
+        "studentNumber": "23-123",
+        "name": "하성민",
+        "x": 36,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-018",
+        "studentNumber": "23-018",
+        "name": "김민규",
+        "x": 36,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-066",
+        "studentNumber": "23-066",
+        "name": "신주혁",
+        "x": 43,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-106",
+        "studentNumber": "23-106",
+        "name": "조서윤",
+        "x": 43,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-056",
+        "studentNumber": "23-056",
+        "name": "박준호",
+        "x": 50,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-086",
+        "studentNumber": "23-086",
+        "name": "이승헌",
+        "x": 50,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-013",
+        "studentNumber": "23-013",
+        "name": "김단희",
+        "x": 57,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-211",
+        "studentNumber": "23-211",
+        "name": "Arzuv",
+        "x": 57,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-082",
+        "studentNumber": "23-082",
+        "name": "이민규",
+        "x": 64,
+        "y": 60,
+        "width": 6.5,
+        "height": 10
+      },
+      {
+        "id": "23-072",
+        "studentNumber": "23-072",
+        "name": "오성욱",
+        "x": 64,
+        "y": 72,
+        "width": 6.5,
+        "height": 10
+      }
+    ]
+  }
+}

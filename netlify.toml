@@ -1,0 +1,18 @@
+[build]
+  base = "frontend"
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# API redirects (백엔드 서버가 별도로 있다면)
+# [[redirects]]
+#   from = "/api/*"
+#   to = "http://your-backend-server:3001/api/:splat"
+#   status = 200

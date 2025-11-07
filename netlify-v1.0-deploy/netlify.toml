@@ -1,0 +1,42 @@
+# Netlify Configuration for KSA Night Study Attendance System v1.0
+# Deploy Date: 2025-11-06
+
+[build]
+  # No build needed - already built files included
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Single Page Application routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# API endpoint redirects (for future serverless functions)
+# [[redirects]]
+#   from = "/api/*"
+#   to = "/.netlify/functions/:splat"
+#   status = 200
+
+# Headers for security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache floor plans
+[[headers]]
+  for = "/floor-plans/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
